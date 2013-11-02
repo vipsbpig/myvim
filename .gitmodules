@@ -34,3 +34,6 @@
 [submodule "bundle/necocomplecache-lang_complete"]
 	path = bundle/necocomplecache-lang_complete
 	url = git@github.com:osyo-manga/neocomplcache-clang_complete.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
