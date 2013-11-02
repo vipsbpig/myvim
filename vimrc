@@ -23,7 +23,6 @@ endif
 "endif
 
 filetype plugin indent on
-se guifont=monaco:h14
 set helplang=cn
 set number "显示行数
 set autoindent		" always set autoindenting on
@@ -31,6 +30,7 @@ set ignorecase smartcase	" Do case insensitive matching
 set hlsearch
 if has('gui_running')
     set guioptions-=L "删除左侧边栏
+    se guifont=monaco:h14
     se guioptions -=T "删除工具条
     se guioptions -=e "删除tab的gui样式
     se guioptions -=m "删除tab的gui样式
