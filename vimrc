@@ -40,6 +40,11 @@ set fileencodings=utf-8,GB2312,gbk "当我们打开一个文件时 按照顺序�
 set softtabstop=4 "输入tab时为4个空格	
 set shiftwidth=4 "indent时 也能是4个空格 
 
+imap <C-d> <Del>
+nmap <C-S-P> gt
+nmap <C-S-N> gT
+vmap <C-C> "+y
+vmap <C-V> "+p
 
 "powerline
 set laststatus=2
