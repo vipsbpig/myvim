@@ -39,8 +39,8 @@ endif
 set fileencodings=utf-8,GB2312,gbk "当我们打开一个文件时 按照顺序陪编码
 set softtabstop=4 "输入tab时为4个空格	
 set shiftwidth=4 "indent时 也能是4个空格 
-set autochdir=1 "读取文件的时候自动更改目录
-se autoread=1 "外部修改过，自动读取..
+set autochdir "读取文件的时候自动更改目录
+se autoread "外部修改过，自动读取..
 
 imap <C-d> <Del>
 nmap <C-S-P> gt
